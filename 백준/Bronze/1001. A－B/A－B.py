@@ -1,2 +1,1 @@
-num = input()
-print(int(num.split()[0]) - int(num.split()[1]))
+print((lambda x: x[0] - x[1])(list(map(int, input().split()))))
